@@ -40,5 +40,7 @@ public class SerializeTest {
 		.then().log().all().assertThat().statusCode(200).extract().response().asString();
 
 	}
-
+	
+	//This is Git
+	
 }
